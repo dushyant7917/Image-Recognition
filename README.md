@@ -12,4 +12,4 @@ Predicting the flower.
 ```bash
 python label_image.py testimage.jpg 
 ```
-**Note: In this case testimage.jpg is the image to be predicted and it is placed in the root folder directory**
+**Note: In this case testimage.jpg is the image whose category has to be predicted and it is placed in the root folder directory**
