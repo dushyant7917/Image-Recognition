@@ -8,7 +8,7 @@ Activate the virtual environment.
 source venv/bin/activate
 ```
 Predicting the flower.
-*Place the image to be detected in the root project directory(this folder)*
+*Place the image to be detected in the root folder/project directory(this folder)*
 ```bash
 python label_image.py testimage.jpg 
 ```
