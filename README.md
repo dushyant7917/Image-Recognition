@@ -12,10 +12,10 @@ Predicting the flower category.
 ```bash
 python label_image.py testimage.jpg 
 ```
-*Note: In this case **testimage.jpg** is the image to be predicted and it is placed in the root folder directory*
+_Note: In this case **testimage.jpg** is the image to be predicted and it is placed in the root folder directory_
 
 ##Training the model from scratch!
-*You don't need to clone the whole project! Just download the **retrain.py** and **label_image.py** in your project directory*
+_You don't need to clone the whole project! Just download the **retrain.py** and **label_image.py** in your project directory_
 
 Go to the project directory.
 ```bash
@@ -48,4 +48,4 @@ Predicting the flower category.
 ```bash
 python label_image.py testimage.jpg 
 ```
-*Note: In this case **testimage.jpg** is the image to be predicted and it is placed in the root folder directory*
+_Note: In this case **testimage.jpg** is the image to be predicted and it is placed in the root folder directory_
