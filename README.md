@@ -1,4 +1,4 @@
-# Flower-Recognition-
+# Flower-Recognition
 Supervised Machine Learning Model to recognise flowers.
 It can be reused to identify other object images by retraining.
 
