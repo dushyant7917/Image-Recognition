@@ -31,9 +31,9 @@ Install tensorflow library:
 ```bash
 pip install tensorflow
 ```
-Download the data set for images you want to recognise/classify and place it in the project directory:
+Download the data set for images you want to recognise/classify and place it in the project directory.
 *In above case(flower recognition) flower_photos is the data set directory*
-_Within the dataset directory keep images of each kind of object in different directries specifying their name _
+*Within the dataset directory keep images of each kind of object in different directries specifying their name.*
 
 Train the classifier using inception v3 neural network:
 ```bash
