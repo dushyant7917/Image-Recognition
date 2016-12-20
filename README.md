@@ -8,8 +8,8 @@ Activate the virtual environment:
 ```bash
 source venv/bin/activate
 ```
-Predicting the flower category:
-*Place the image to be detected in the root project directory(this folder)*
+Predicting the flower category.
+*Place the image to be detected in the root project directory(this folder)*:
 ```bash
 python label_image.py testimage.jpg 
 ```
@@ -32,7 +32,7 @@ Install tensorflow library:
 pip install tensorflow
 ```
 Download the data set for images you want to recognise/classify and place it in the project directory:
-_In above case(flower recognition) flower_photos is the data set directory_
+*In above case(flower recognition) flower_photos is the data set directory*
 _Within the dataset directory keep images of each kind of object in different directries specifying their name _
 
 Train the classifier using inception v3 neural network:
@@ -43,10 +43,10 @@ python retrain.py \
 --model_dir=inception \
 --output_graph=retrained_graph.pb \
 --output_labels=retrained_labels.txt \
---image_dir [image data set directry name/path]
+--image_dir [image data-set directry name/path]
 ```
-Predicting the image category:
-*Place the image to be detected in the root project directory(this folder)*
+Predicting the image category.
+*Place the image to be detected in the root project directory(this folder)*:
 ```bash
 python label_image.py testimage.jpg 
 ```
