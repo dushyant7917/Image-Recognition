@@ -1,6 +1,6 @@
 # Image-Recognition
 Supervised Machine Learning Model to recognise images.
-In this example we will use to detect flowers.
+In this example we will use it to detect flowers.
 It can be reused to identify other object images by retraining the model.
 
 ## How to use this model to detect image of sunflower/daisy/dandelion/rose/tulips?
