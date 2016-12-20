@@ -1,8 +1,9 @@
-# Flower-Recognition
-Supervised Machine Learning Model to recognise flowers.
-It can be reused to identify other object images by retraining.
+# Image-Recognition
+Supervised Machine Learning Model to recognise images.
+In this example we will use to detect flowers.
+It can be reused to identify other object images by retraining the model.
 
-## How to use ?
+## How to use this model to detect image of sunflower/daisy/dandelion/rose/tulips?
 Activate the virtual environment:
 ```bash
 source venv/bin/activate
@@ -14,7 +15,7 @@ python label_image.py testimage.jpg
 ```
 _Note: In this case **testimage.jpg** is the image to be predicted and it is placed in the root folder directory_
 
-##Training the model from scratch!
+##Reusing the model for some other images!
 _You don't need to clone the whole project! Just download the **retrain.py** and **label_image.py** in your project directory_
 
 Go to the project directory.
@@ -30,14 +31,10 @@ Install tensorflow library:
 ```bash
 pip install tensorflow
 ```
-Download the flower data set:
-```bash
-curl -O http://download.tensorflow.org/example_images/flower_photos.tgz
-```
-Extract the zip folder:
-```bash
-tar xzf flower_photos.tgz
-```
+Download the data set for images you want to recognise/classify and place it in the project directory:
+_In above case(flower recognition) flower_photos is the data set directory_
+_Within the dataset directory keep images of each kind of object in different directries specifying their name _
+
 Train the classifier using inception v3 neural network:
 ```bash
 python retrain.py \
@@ -46,9 +43,9 @@ python retrain.py \
 --model_dir=inception \
 --output_graph=retrained_graph.pb \
 --output_labels=retrained_labels.txt \
---image_dir flower_photos
+--image_dir [image data set directry name/path]
 ```
-Predicting the flower category:
+Predicting the image category:
 *Place the image to be detected in the root project directory(this folder)*
 ```bash
 python label_image.py testimage.jpg 
